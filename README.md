@@ -38,7 +38,7 @@ The purpose of this application is to provide the user all the notification that
 In Order to subscribe as a particular user or see all the relevant notification for an user, replace the userName in the below URL("/?user=userName") and you will
 be subscribed to receive notification of that user.
 ```
-https://webfluxnotification.herokuapp.com/?user=userName
+https://webfluxnotification.herokuapp.com/?userId=userName
 ```
 
 In order to create a notification for a particular user try out it through below mentioned swagger ui.
