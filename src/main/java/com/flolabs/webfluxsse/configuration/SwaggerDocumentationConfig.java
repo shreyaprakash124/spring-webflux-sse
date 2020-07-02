@@ -3,6 +3,7 @@ package com.flolabs.webfluxsse.configuration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
+import io.swagger.annotations.Api;
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.service.ApiInfo;
@@ -33,7 +34,7 @@ public class SwaggerDocumentationConfig {
 	    public Docket customImplementation(){
 	        return new Docket(DocumentationType.SWAGGER_2)
 	                .select()
-	                    .apis(RequestHandlerSelectors.any())
+	                    .apis(RequestHandlerSelectors.withClassAnnotation(Api.class))
 	                    .build().apiInfo(apiInfo())
 				.tags(new Tag("Notification", "APIS for handling notification details"));
                               }
