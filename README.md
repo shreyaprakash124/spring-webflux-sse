@@ -6,6 +6,7 @@ A notification system using Spring Web Flux and Server sent Events. Whenever a u
 
 # Table of contents
 * [General info](#general-info)
+* [Thought process and problem statement](#thought-process-and-problem-statement)
 * [Screenshots](#screenshots)
 * [Topics](#topics)
 * [Demo](#demo)
@@ -17,6 +18,8 @@ In this project, we make use of implementations such as the Flux class provided 
 Flux is a reactive representation of a stream of events – it's handled differently based on the specified request or response media type. An SSE is a specification adopted by most browsers to allow streaming events unidirectionally at any time.
 The **events** are just a stream of UTF-8 encoded text data that follow the format defined by the specification.
 
+## Thought process and problem statement
+hu
 
 ## Screenshots
 <img align="left" src="https://i.ibb.co/SX5nkmm/Notifications.png">
