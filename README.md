@@ -19,7 +19,7 @@ Flux is a reactive representation of a stream of events – it's handled differe
 The **events** are just a stream of UTF-8 encoded text data that follow the format defined by the specification.
 
 ## Thought process and problem statement
-hu
+This application is designed to provide the user with a real-time receiving of notifications that are relevant to him/her. The idea is to take advantage of the Reactive Stream Specification to build a non-blocking reactive application. In this case, I've achieved a non-blocking operation using Spring's web-flux framework and implemented Server-Sent-Events(SSE) in java spring. For the desired result I established a stream connection witha every incoming user and sent out notifications to the relevant active users.
 
 ## Screenshots
 <img align="left" src="https://i.ibb.co/SX5nkmm/Notifications.png">
