@@ -39,13 +39,16 @@ https://webfluxnotification.herokuapp.com/?user=userName
 
 In order to create a notification for a particular user try out it through below mentioned swagger ui.
 
-https://webfluxnotification.herokuapp.com/swagger-ui.html
+https://webfluxnotification.herokuapp.com/swagger-ui.html 
+
+</br>
 Click on try out for /notifications for a POST call.
 Use the below sample Json for creating the request.
 
+```
 {
 "userId":"User1",
 "notificationDetails":"First Notification"
 }
-
+```
 
